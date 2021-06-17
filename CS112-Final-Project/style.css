@@ -1,0 +1,56 @@
+body{
+  background-color: #E9ECEF;
+}
+
+hr {
+  width: 100%;
+  height: 5px;
+  background-color:#666;
+  border: 0 none;
+}
+
+hr.topFixed {
+  width: 80%;
+  height: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#666;
+  border: 0 none;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  position: relative;
+  top: 15px;
+}
+
+select.rightFixerPlaced {
+  position: relative;
+  left: 5px;
+}
+
+button.rightFixerPlaced {
+  position: relative;
+  left: 20px;
+}
+
+.divMovieInfo {
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 5%;
+  vertical-align: text-top;
+  background-color: white;
+}
+
+img {
+  height: 100%;
+  width: 112.5%;
+  position: relative;
+  right: 15px;
+}
+
+.error_Checker{
+  font-family: 'Odibee Sans', cursive;
+  font-size: 500%;
+  text-align: center;
+  position: relative;
+  top: 20%;
+}
